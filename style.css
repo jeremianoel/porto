@@ -290,6 +290,10 @@ section {
   display: flex;
 }
 
+.about-pic {
+  height: 400px;
+  width: 400px;
+}
 
 .arrow {
   position: absolute;
@@ -445,7 +449,7 @@ footer p {
 }
 
 .adasd {
-  height: 800px;
+  height: 600px;
 }
 
 .contact-info-container {
@@ -469,16 +473,5 @@ footer p {
 @media screen and (max-width: 992px) {
   nav {
     height: auto;
+   
   }}
-
-.testingtesting {
-    height: 700px;
-    width: 700px;
-    margin: auto 0;
- }
-
- .about-pic {
-  height: 450px;
-  width: 400px;
-  margin: auto 0;
-}

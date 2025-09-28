@@ -12,9 +12,6 @@ import Smartclick from "./assets/smartclick.png"
 import Goody from "./assets/goody.png"
 import Citiasia from "./assets/Citiasia.png"
 import Email from "./assets/email.png"
-import Petstore from "./assets/Regression Testing Petstore.html"
-import Resonance from "./assets/Regression Testing Resonance.html"
-
 
 function App() {
   return (
@@ -224,7 +221,7 @@ function App() {
         <div className="flex gap-10">
         <button onClick={() => window.open('https://github.com/jeremianoel/resonance-automation', '_blank')} className="text-sm font-semibold border-2 border-gray-400
         rounded-4xl py-4 px-8 bg-white hover:bg-black hover:text-white hover:cursor-pointer duration-300">Github</button>
-        <button onClick={() => window.open(Resonance, '_blank')} className="text-sm font-semibold border-2 border-gray-400
+        <button onClick={() => window.open('Regression Testing Resonance.html', '_blank')} className="text-sm font-semibold border-2 border-gray-400
         rounded-4xl py-4 px-8 bg-white hover:bg-black hover:text-white hover:cursor-pointer duration-300">Preview</button>
         </div>
         </div>
@@ -234,7 +231,7 @@ function App() {
         <div className="flex gap-10">
         <button onClick={() => window.open('https://github.com/jeremianoel/petstore-automation', '_blank')} className="text-sm font-semibold border-2 border-gray-400
         rounded-4xl py-4 px-8 bg-white hover:bg-black hover:text-white hover:cursor-pointer duration-300">Github</button>
-        <button onClick={() => window.open(Petstore, '_blank')} className="text-sm font-semibold border-2 border-gray-400
+        <button onClick={() => window.open('Regression Testing Petstore.html', '_blank')} className="text-sm font-semibold border-2 border-gray-400
         rounded-4xl py-4 px-8 bg-white hover:bg-black hover:text-white hover:cursor-pointer duration-300">Preview</button>
         </div>
         </div>

@@ -10,7 +10,7 @@ import Sporthaven from "./assets/Sporthaven.png"
 import Cafein from "./assets/cafein.png"
 import Smartclick from "./assets/smartclick.png"
 import Goody from "./assets/goody.png"
-import Citiasia from "./assets/citiasia.png"
+import Citiasia from "./assets/Citiasia.png"
 import Email from "./assets/email.png"
 
 function App() {

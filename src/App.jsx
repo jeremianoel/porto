@@ -46,7 +46,7 @@ function App() {
       </div>
     </div>
 
-      <div id="about" className="min-h-screen flex flex-col items-center gap-2 w-full font-poppins">
+      <div id="about" className="min-h-screen md:mt-0 mt-25 flex flex-col items-center gap-2 w-full font-poppins">
         <p className="text-xl font-normal">Get to Know More</p>
         <p className="text-5xl font-bold">About Me</p>
         <div className="md:flex-row flex flex-col items-center mt-5 md:mt-20 justify-center gap-20">
@@ -130,7 +130,7 @@ function App() {
         </div>
       </div>
 
-      <div id="projects" className="min-h-screen flex flex-col items-center gap-2 font-poppins">
+      <div id="projects" className="min-h-screen md:mt-0 mt-25 flex flex-col items-center gap-2 font-poppins">
         <p className="text-xl font-normal">Browse My Recent</p>
         <p className="text-5xl font-bold">Projects</p>
         <div className="flex flex-col items-center mt-15 w-full">
@@ -237,10 +237,10 @@ function App() {
         </div>
         </div>
 
-        <div id="contact" className="flex flex-col justify-end mt-20 items-center gap-2 font-poppins">
+        <div id="contact" className="flex w-full flex-col justify-end mt-25 items-center gap-2 font-poppins">
         <p className="text-xl font-normal">Get in Touch</p>
         <p className="text-5xl font-bold">Contact Me</p>
-        <div className="flex flex-col mt-10 items-center border-2 px-10 md:px-15 h-fit py-6 rounded-4xl border-gray-400">
+        <div className="flex flex-col mt-10 items-center border-2 w-[90%] md:w-auto md:px-15 h-fit py-6 rounded-4xl border-gray-400">
         <div className="flex flex-col md:flex-row gap-5 md:gap-10 text-black text-md md:text-xl items-start md:items-center">
           <a href="mailto:jeremianoellsm@gmail.com">
           <div className="flex gap-2 md:gap-5 items-center hover:text-gray-400 hover:cursor-pointer duration-200">
@@ -251,7 +251,7 @@ function App() {
           <a href="https://www.linkedin.com/in/jeremianoel/" target="_blank">          
           <div className="flex gap-2 md:gap-5 items-center hover:text-gray-400 hover:cursor-pointer duration-200">
           <img src={LinkedIn} className="size-9"/>          
-          <p >My LinkedIn</p>
+          <p>My LinkedIn</p>
            </div>
           </a>         
         </div>

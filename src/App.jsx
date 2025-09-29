@@ -244,7 +244,7 @@ function App() {
         <div className="flex flex-col md:flex-row gap-5 md:gap-10 text-black text-md md:text-xl items-start md:items-center">
           <a href="mailto:jeremianoellsm@gmail.com">
           <div className="flex gap-2 md:gap-5 items-center hover:text-gray-400 hover:cursor-pointer duration-200">
-          <img src={Email} className="size-12"/>
+          <img src={Email} className="size-9"/>
           <p >jeremianoellsm@gmail.com</p>
           </div>
           </a>
